@@ -31,4 +31,4 @@ jobs:
     steps:
         - name: Restart App
           run: |
-            pm2 restart backend-prod || pm2 start index.js --name backend-prod
+            pm2 restart index.js
